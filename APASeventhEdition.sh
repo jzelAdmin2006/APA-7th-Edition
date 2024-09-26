@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the source URL for the file
-SOURCE_URL="https://raw.githubusercontent.com/briankavanaugh/APA-7th-Edition/main/APASeventhEdition.xsl"
+SOURCE_URL="https://raw.githubusercontent.com/jzelAdmin2006/APA-7th-Edition/main/APASeventhEdition.xsl"
 
 # Get the current username
 USERNAME=$(whoami)
