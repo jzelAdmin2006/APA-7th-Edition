@@ -449,7 +449,7 @@
       </xsl:call-template>
     </xsl:variable>
     <!-- Note: removed due to GitHub issue #3 https://github.com/briankavanaugh/APA-7th-Edition/issues/3 <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Strings/b:RetrievedFromCap"/> -->
-    <xsl:text>Retrieved %1, from %2</xsl:text>
+    <xsl:text>Abgerufen am %1 von %2</xsl:text>
   </xsl:template>
 
   
@@ -461,7 +461,7 @@
       </xsl:call-template>
     </xsl:variable>
     <!-- Note: removed due to GitHub issue #3 https://github.com/briankavanaugh/APA-7th-Edition/issues/3 <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Strings/b:RetrievedCap"/> -->
-    <xsl:text>Retrieved %1.</xsl:text>
+    <xsl:text>Abgerufen am %1.</xsl:text>
   </xsl:template>
 
   
